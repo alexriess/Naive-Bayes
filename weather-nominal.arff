@@ -1,0 +1,27 @@
+% ARFF File for the weather data
+% corresponds to figure 2.2 of the book
+
+@attribute outlook { sunny, overcast, rainy }
+@attribute temperature { hot, mild, cool }
+@attribute humidity { high, normal }
+@attribute windy { true, false }
+@attribute play? { yes, no }
+
+@data
+
+% you should be able to handle comments down here
+sunny, hot, high, false, no
+sunny, hot, high, true, no
+overcast, hot, high, false, yes
+rainy, mild, high, false, yes
+rainy, cool, normal, false, yes
+rainy, cool, normal, true, no
+% you should be able handle comments in the middle of the data
+overcast, cool, normal, true, yes
+sunny, mild, high, false, no
+sunny, cool, normal, false, yes
+rainy, mild, normal, false, yes
+sunny, mild, normal, true, yes
+overcast, mild, high, true, yes
+overcast, hot, normal, false, yes
+rainy, mild, high, true, no
